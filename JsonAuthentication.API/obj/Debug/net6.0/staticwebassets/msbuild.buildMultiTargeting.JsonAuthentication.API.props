@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\JsonAuthentication.API.props" />
+</Project>

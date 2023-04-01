@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qYVbqSlD2SlE5tKZnGzPb2ILmbdF3zOmWxKyvtEFdaY=",
+  "Source": "JsonAuthentication.API",
+  "BasePath": "_content/JsonAuthentication.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
