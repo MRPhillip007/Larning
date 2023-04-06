@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EozzaCCccjVXGUIxHQowm6wKagE3wWV4bjNzYKMCafDBabGYUYsdN7dJ5WN3i1Yla3FurK0qb31uht8R2TDJDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Learning\\Authentication\\JsonAuthentication.API\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\filip\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\filip\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

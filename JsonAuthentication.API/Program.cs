@@ -1,11 +1,21 @@
+using BLL.Services.FileUploadService;
+using DAL;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Database init
+var connectionString = builder.Configuration.GetConnectionString("FileUploadApp");
+builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
 
+// Add services to the container.
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// My services
+builder.Services.AddTransient<IFileUploadService, FileUploadService>();
+
 
 var app = builder.Build();
 
@@ -16,7 +26,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
