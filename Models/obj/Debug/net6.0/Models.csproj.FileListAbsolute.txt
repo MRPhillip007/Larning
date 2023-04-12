@@ -1,0 +1,12 @@
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\bin\Debug\net6.0\Models.deps.json
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\bin\Debug\net6.0\Models.dll
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\bin\Debug\net6.0\Models.pdb
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\obj\Debug\net6.0\Models.csproj.AssemblyReference.cache
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\obj\Debug\net6.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\obj\Debug\net6.0\Models.AssemblyInfo.cs
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\obj\Debug\net6.0\Models.csproj.CoreCompileInputs.cache
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\obj\Debug\net6.0\Models.dll
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\obj\Debug\net6.0\refint\Models.dll
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\obj\Debug\net6.0\Models.pdb
+C:\Projects\Learning\Authentication\JsonAuthentication.API\Models\obj\Debug\net6.0\ref\Models.dll

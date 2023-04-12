@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonAuthentication.API", "JsonAuthentication.API\JsonAuthentication.API.csproj", "{B33C8A32-5579-4176-8663-60F52AF6BFD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonAuthentication.API", "JsonAuthentication.API\JsonAuthentication.API.csproj", "{B33C8A32-5579-4176-8663-60F52AF6BFD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{289B1574-F9B0-43C0-AAB6-9B20E22377D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{0DB8D57B-1831-4132-8AA9-2D2629189C3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{E1C74447-F1D8-4CFB-9A51-A63702484115}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{CCEE2CA4-FB7F-4E66-ABB6-22B8DBD1154A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{B33C8A32-5579-4176-8663-60F52AF6BFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B33C8A32-5579-4176-8663-60F52AF6BFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B33C8A32-5579-4176-8663-60F52AF6BFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289B1574-F9B0-43C0-AAB6-9B20E22377D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289B1574-F9B0-43C0-AAB6-9B20E22377D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289B1574-F9B0-43C0-AAB6-9B20E22377D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289B1574-F9B0-43C0-AAB6-9B20E22377D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB8D57B-1831-4132-8AA9-2D2629189C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB8D57B-1831-4132-8AA9-2D2629189C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB8D57B-1831-4132-8AA9-2D2629189C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB8D57B-1831-4132-8AA9-2D2629189C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C74447-F1D8-4CFB-9A51-A63702484115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C74447-F1D8-4CFB-9A51-A63702484115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C74447-F1D8-4CFB-9A51-A63702484115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C74447-F1D8-4CFB-9A51-A63702484115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCEE2CA4-FB7F-4E66-ABB6-22B8DBD1154A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEE2CA4-FB7F-4E66-ABB6-22B8DBD1154A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEE2CA4-FB7F-4E66-ABB6-22B8DBD1154A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEE2CA4-FB7F-4E66-ABB6-22B8DBD1154A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

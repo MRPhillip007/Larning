@@ -1,0 +1,42 @@
+version: '3.4'
+
+networks:
+    dev:
+        driver: bridge
+
+services:
+    backend-app:
+        image: uploadapp
+        depends_on:
+        - "app_db"
+ 
+        container_name: uploadapp-services
+        ports:
+        - "5000:5001"
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            - ConnectionStrings__FileUploadApp=User ID=postgres;Password=postgres;Server=app_db;Port=5432;Database=UploadDb;IntegratedSecurity=true; Polling=true;
+            - ASPNETCORE_URLS=http://+5000
+        networks:
+            - dev
+
+    
+    app_db:
+        image: postgres:latest
+        container_name: app_db
+        environment:
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=postgres
+            - POSTGRES_DB=UploadDb
+        ports:
+            - "5433:5432"
+        restart: always
+        volumes:
+            - app_data:/var/lib/postgresql/data
+        networks:
+            - dev
+
+volumes:
+    app_data:
