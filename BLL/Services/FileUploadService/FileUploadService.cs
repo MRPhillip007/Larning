@@ -52,7 +52,6 @@ namespace BLL.Services.FileUploadService
 
             // maybe add some try catch block soon
 
-            Console.WriteLine(SomeClass.GetData("server"));
         }
     }
 }
